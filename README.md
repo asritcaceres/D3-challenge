@@ -12,4 +12,4 @@
 
 ##### At this point I created the labels for the axes. After completing the basic requirements I tried the bonus. With the bonus I started with the tooltip. On the html page I had to add the script for the tooltip to work. On the app.js I added the attribute with the class of tooltip. The offset changes the position of the popup information that will be shown once the mouse hovers over the point. I created a black background with white text coloring and padding for the information. I had it populate the state, healthcare percent and the poverty percent. Once that is created I called it and created event listeners to show the data when the mouse hovers over the datapoint and to hide when it is moved off the datapoint.
 
-#https://github.com/asritcaceres/D3-challenge/blob/main/D3_data_journalism/assets/images/final_product.PNG?raw=true 
+![alt text](https://github.com/asritcaceres/D3-challenge/blob/main/D3_data_journalism/assets/images/final_product.PNG?raw=true)
