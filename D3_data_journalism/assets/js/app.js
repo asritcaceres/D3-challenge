@@ -27,9 +27,9 @@ d3.csv("assets/data/data.csv").then(function(healthData) {
     
     healthData.forEach(function(data) {
       data.healthcare = +data.healthcare;
-      data.poverty = +data.poverty;
-      
+      data.poverty = +data.poverty;      
     });
+
     // Create scale functions
     
     var xLinearScale = d3.scaleLinear()
@@ -64,7 +64,7 @@ d3.csv("assets/data/data.csv").then(function(healthData) {
     .attr("cy", d => yLinearScale(d.healthcare))
     .attr("r", "10")
     .attr("fill", "steelblue")
-    .attr("opacity", ".5")
+    .attr("opacity", ".75")
 
     // Add abbreviations to the circles
 
@@ -121,6 +121,7 @@ d3.csv("assets/data/data.csv").then(function(healthData) {
       .attr("class", "axisText")
       .style("font-weight", "bold")
       .text("In Poverty (%)");
+
   }).catch(function(error) {
     console.log(error);
   });
